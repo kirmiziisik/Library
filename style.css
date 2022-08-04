@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(230, 230, 230);
+}
+
+.header {
+  background-color: #ac451d;
+  color: white;
+  font-size: 40px;
+  letter-spacing: 3;
+  padding-left: 30px;
+}
+
+.new-book {
+  display: block;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 20px;
+  margin: 20px auto;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: #29582b;
+  color: white;
+  cursor: pointer;
+}
+
+.form-container {
+  background-color: #da4b27d8;
+  padding: 50px;
+  border: 3px solid black;
+  margin-left: 500px;
+  position: absolute;
+  z-index: 1;
+  border-radius: 40px;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form label {
+  display: block;
+  font-size: 22px;
+}
+
+input {
+  font-size: 20px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+#submit {
+  background-color: #9b3a13;
+  padding: 4px 0;
+  margin-top: 12px;
+  color: white;
+  cursor: pointer;
+}
+
+.display {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 50px;
+  border-radius: 3px;
+}
+
+.divStyle {
+  background-color: #a3afa3;
+  color: #083105;
+  padding: 30px 20px 20px 20px;
+  width: 300px;
+  height: 150px;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btnStyle {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(87, 26, 26);
+  color: white;
+  width: 40px;
+  height: 30px;
+}
+
+.btnRead,
+.btnUnread {
+  display: block;
+  width: 60px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.btnread {
+  background-color: rgb(9, 134, 26);
+  color: white;
+}
+
+.btnUnread {
+  background-color: rgb(145, 14, 14);
+  color: white;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+#read {
+  width: 18px;
+  height: 18px;
+}
